@@ -24,6 +24,7 @@
     <ProjectGuid>{31ae7751-7280-49d0-90f6-f4273f9b4f15}</ProjectGuid>
     <RootNamespace>EvenLowConsoleTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EvenLow</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
