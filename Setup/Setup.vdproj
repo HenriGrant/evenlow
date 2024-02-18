@@ -103,6 +103,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:FALSE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -110,7 +126,7 @@
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
         "OutputFilename" = "8:Release\\EvenLowSetup.msi"
-        "PackageFilesAs" = "3:2"
+        "PackageFilesAs" = "3:1"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
         "Compression" = "3:2"
@@ -119,6 +135,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -417,7 +449,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Even Low"
         "ProductCode" = "8:{1FA0271B-15FE-499B-9F2C-D6DBCDFFC94D}"
-        "PackageCode" = "8:{B0FAB064-EAB6-440E-B065-685ABBA0BC47}"
+        "PackageCode" = "8:{9EBC9E4A-BC80-4A31-AE19-7002CDFC69FC}"
         "UpgradeCode" = "8:{02128ECA-A37D-4B94-A7B3-17FDF314ADF8}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -952,7 +984,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A53889E548644E949103157951EEDB5D"
             {
-            "SourcePath" = "8:..\\x64\\Release\\EvenLowConsoleTest.exe"
+            "SourcePath" = "8:..\\x64\\Release\\EvenLow.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_DFD6A1C9E3914BFA8426D27C82671354"

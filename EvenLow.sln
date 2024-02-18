@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvenLowConsoleTest", "EvenLowConsoleTest\EvenLowConsoleTest.vcxproj", "{31AE7751-7280-49D0-90F6-F4273F9B4F15}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvenLow", "EvenLowConsoleTest\EvenLowConsoleTest.vcxproj", "{31AE7751-7280-49D0-90F6-F4273F9B4F15}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{DD5635F3-0C99-49DA-8152-0A7658E83BF1}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EvenLowSetup", "Setup\Setup.vdproj", "{DD5635F3-0C99-49DA-8152-0A7658E83BF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

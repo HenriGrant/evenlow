@@ -33,7 +33,7 @@ void print(const string& infix)
 // This function sets up db.txt to store the user's data.
 int set_up_txt()
 {
-    int money_from_db;
+    long money_from_db;
     ifstream moneyfile; //input file stream monefile
     moneyfile.open("db.txt");
     // if db.text exists, put the data into money_from_db
