@@ -16,7 +16,22 @@
 #include <thread>  // for sleep
 #include <fstream> // File stream
 #include <string>
+#include <random>
 using namespace std;
+
+
+// this func generates a random number between 1 and 36 using #include <random>
+int rngenerator() {
+    int randnum;
+    std::random_device rd;
+    std::mt19937 generator(rd());
+    std::uniform_int_distribution<int> dist(1, 36);
+    randnum = dist(generator);
+    //std::cout << randnum << "\n";
+    return randnum;
+}
+
+
 // this function will output any string to the screen character by character
 void print(const string& infix)
 {
@@ -81,12 +96,12 @@ void game_func()
     {
         correct1 = false;
         correct2 = false;
-        gen_num = rand() % 100 + 1;
-        if (gen_num < 50)
+        gen_num = rngenerator();
+        if (gen_num < 19)
         {
             low = true;
         }
-        if (gen_num >= 50)
+        if (gen_num >= 19)
         {
             low = false;
         }
